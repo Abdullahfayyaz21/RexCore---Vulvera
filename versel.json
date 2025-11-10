@@ -18,7 +18,6 @@
       "src": "/api/(.*)",
       "dest": "server/index.js"
     },
-    // 4. Route all other requests (the frontend) to the static files
     {
       "src": "/(.*)",
       "dest": "client/build/$1"
